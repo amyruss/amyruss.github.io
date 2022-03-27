@@ -1,0 +1,117 @@
+h1 {
+border-top: 15px blue;
+font-family: Fredoka, sans-serif;
+}
+p {
+font-size: 15px;
+font-family: Fredoka, sans-serif;
+}
+
+/* Style for the html body with zero margin and zero padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  margin: 10px;
+  font-size: 24px;
+  font-family: Fredoka, sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Fredoka, sans-serif;
+}
+
+p {
+  margin: 10px;
+  font-family: Fredoka, sans-serif;
+}
+
+/* This is the style for the element with id=map */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: Fredoka, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#features {
+  top: 0;
+  height: 200px;
+  margin-top: 20px;
+  width: 290px;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+/* Style for the menu element - radio button */
+#menu {
+ position: absolute;
+ background: white;
+ right: 0;
+ padding: 10px;
+ font-family: Fredoka, sans-serif;
+}
+
+/* Style for the heading in the pop-up window */
+h3 {
+  border-top: 15px blue;
+  font-family: Fredoka, sans-serif;
+}
+
+/* Style for the paragraph in the pop-up window */
+p {
+  font-size: 17px;
+  font-family: Fredoka, sans-serif;
+}
+
+/* Style for pop-up */
+.my-popup .mapboxgl-popup-content{
+  width: 200px;
+  background: rgba(0, 139, 139, 0.9);
+  border-top: 50px black;
+  padding: 20px;
+  color: white;
+}
+
+/* Style for subcrawl pop-up */
+.sub-popup .mapboxgl-popup-content{
+  width: 200px;
+  background: rgba(173, 216, 230, 0.9);
+  border-top: 50px black;
+  padding: 20px;
+  color: white;
+}
+
+/* Link1 style */
+.link1 a {
+	padding-bottom: 1px;
+	text-decoration: none;
+	color: #000;
+	box-shadow: inset 0 -4px 0 rgba(13,190,152,0.7);
+	transition: background-color .25s ease-out;
+}
+
+.link1 a:hover {
+	background-color: rgba(13,190,152,0.7);
+	padding-top: 2px;
+	box-shadow: none;
+}

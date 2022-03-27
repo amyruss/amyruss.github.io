@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - pubsinglasgow.html</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8' />
+  <title>Points on a map</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <!-- Mapbox JS Script! -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+  <!-- Mapbox CSS Script! -->
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+  <!-- Google Font CSS! -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>  
+ 
+  
+<body>
+  
+<div id="map"></div>
+<div id="submap"></div>
+<div class='map-overlay' id='features'><h2>Pubs in Glasgow</h2><div id='pd'><p class="link1">If you fancy the Glasgow subcrawl challenge, find suggestions of pubs you can go to at each stop. Click the icons on each map for more information! Explore Glasgow's top 20 pubs according to <a href= "https://www.timeout.com/glasgow/bars-and-pubs/the-best-pubs-in-glasgow" target="_blank"> Timeout.com</a></p></div>
+</div>
+   
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body { 
+        margin: 0; 
+        padding: 0; 
+      }
+      #map { 
+        position: absolute; 
+        top: 0; 
+        bottom: 0; 
+        width: 100%; 
+      }
+    </style>
+  </head>
+
+<div id = "menu">
+  <h3>Select a Map</h3>
+  <label class= "container">Glasgow's Top 20
+  <input id="style_top20" type="radio" checked="checked"
+  name="radio">
+  <span class="container">Subcrawl Suggestions
+   <input id="style_subway" type="radio" name="radio">
+    <span class="checkmark"></span>
+    </label>
+    </div>  
+  
+</body>  
+  
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+</style>
+  
+  </html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
